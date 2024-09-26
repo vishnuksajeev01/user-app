@@ -1,0 +1,39 @@
+/* Update CSS for form layout */
+
+.fullname-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Add gap between input fields */
+  }
+  
+  .fullname-group input {
+    flex: 1; /* Make all input fields take equal space */
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 15px; /* Add spacing below the form group */
+  }
+  
+  .form-group label {
+    margin-right: 10px; /* Add space between the label and radio buttons */
+  }
+  
+  .d-flex {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-label {
+    margin-left: 5px; /* Space between radio and label */
+  }
+  
+  .container.register-container{
+    width: 60%;
+  }

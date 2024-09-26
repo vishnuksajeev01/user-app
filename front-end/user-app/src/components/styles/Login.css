@@ -1,0 +1,17 @@
+
+.container.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the value to your desired spacing */
+  }
+
+.card-body{
+    height: 70%;
+}

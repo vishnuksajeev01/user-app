@@ -1,0 +1,83 @@
+.dashboard-user-dashboard-container {
+    padding: 20px;
+    width: 40%;
+}
+  
+.dashboard-welcome-message {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+  
+/* Flexbox layout for details and photo */
+.dashboard-details-and-photo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.dashboard-user-details {
+    flex: 1; /* Occupies the first column */
+    margin-right: 20px;
+    margin-top: 20px;
+}
+  
+.dashboard-detail-row {
+    margin-bottom: 10px;
+}
+  
+.dashboard-detail-label {
+    font-weight: bold;
+}
+  
+.dashboard-detail-value {
+    margin-left: 10px;
+}
+  
+.dashboard-profile-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+  
+.dashboard-profile-image {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+  
+.dashboard-buttons-container {
+    display: flex; /* Use flexbox to arrange buttons in a row */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center align items vertically */
+    margin-top: 20px; /* Optional: Add spacing above */
+}
+
+.dashboard-btn {
+    width: 150px; /* Button width */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #f7f4f4;
+    background-color: #0db826;
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+    background-color: #3a4be4;
+}
+
+.dashboard-Heading {
+    text-align: center;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5;
+}
