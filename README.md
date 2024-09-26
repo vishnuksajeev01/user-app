@@ -10,6 +10,7 @@ The User App allows users to register by providing their details, including a pr
 
 ## Table Structure
 1. **user_credential:** One-to-one mapping with user_details
+   
 ![table1 - user_credential](https://github.com/user-attachments/assets/b0b490d3-7f36-42c7-b333-08c7538df340)
 
 2. **user_details:** One-to-one mapping with user_credential
