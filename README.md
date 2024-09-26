@@ -4,7 +4,7 @@
 The User App allows users to register by providing their details, including a profile image. Once registered, users can log in using their email address and password. After logging in, users will have the ability to edit all profile fields except for their email address, which cannot be changed after registration.
 
 ## Tech Stack
-- **Front-end:** React, JavaScript, HTML, CSS
+- **Front-end:** React, TypeScript, HTML, CSS, Bootstrap
 - **Back-end:** Java, Spring Boot, JPA for database communication
 - **Database:** MySQL
 
